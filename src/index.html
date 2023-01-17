@@ -6,9 +6,30 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
-    </div>
+    <img id="imagemFundo" src="imageBackground.jpg">
+   
+    <header>
+      <h1>Meu Diário Cifrado</h1>
+    </header>
+
+    <main>
+      <form>
+        <p>Insira o número de deslocamento</p>
+        <input class="inputDeslocamento" type="number" value=0>
+        
+        <div id="inputRecebe">
+          <textarea name="areaRecebeCifra" rows="8" placeholder="Digite aqui seu diário"></textarea>
+        </div>
+
+        <div id="inputEntrega">
+          <textarea name="areaEntregaCifra" rows="8"></textarea>
+        </div>
+
+        <button>Cifrar</button>
+        <button>Decifrar</button>
+      </form>
+    </main>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
