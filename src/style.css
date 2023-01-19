@@ -1,3 +1,4 @@
+
 header h1{
     text-align: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -5,18 +6,53 @@ header h1{
 }
 main{
     text-align: center;
+    }
+
+main form{
+    position: relative;
+}
+
+form p{
+    color: #40091D;
 }
 
 .inputDeslocamento{
     padding: 3px;
     margin-bottom: 20px;
     width: 35px;
+    color: #40091D;
+    border: 1.5px solid #D9CDBF;
+    border-radius: 5px;
+
 }
 
 #imagemFundo{
     width: 100%;
+    position: absolute;
+    height: 600px;
+    opacity: 0.6;
+    left: 0;
+    top: 0;
+
 }
 
 textarea{
-    width: 300px;
+    width: 380px;
+    margin: 15px;
+    font-size: 15px;
+    color: #424949;
+    border: 1.5px solid #D9CDBF;
+    border-radius: 10px;
 }
+
+button{
+    width: 170px;
+    height: 38px;
+    margin: 10px;
+    border-radius: 15px;
+    border: 0px;
+    background-color: #F291B5;
+    font-size: 16px;
+    color: white;
+}
+
