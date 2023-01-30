@@ -12,11 +12,11 @@ main form{
     position: relative;
 }
 
-form p{
+main p{
     color: #40091D;
 }
 
-.inputDeslocamento{
+#inputDeslocamento{
     padding: 3px;
     margin-bottom: 20px;
     width: 35px;
@@ -33,6 +33,7 @@ form p{
     opacity: 0.6;
     left: 0;
     top: 0;
+    z-index: -1;
 
 }
 

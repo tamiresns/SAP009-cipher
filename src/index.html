@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Caesar Cipher</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="icon" href="iconAba.png">
   </head>
   <body>
     <header>
@@ -13,21 +14,19 @@
     <main>
       <img id="imagemFundo" src="imageBackground.jpg">
 
-      <form>
-        <p>Insira o número de deslocamento</p>
-        <input class="inputDeslocamento" type="number" value=0>
-        
-        <div id="inputRecebe">
-          <textarea name="areaRecebeCifra" rows="8" placeholder="Querido diário,..."></textarea>
-        </div>
+      <p>Insira o número de deslocamento</p>
+      <input id="inputDeslocamento" type="number" min="0" max="100" />
+      
+      <div>
+        <textarea id="inputRecebe" name="areaRecebeCifra" rows="8" placeholder="Querido diário,..."></textarea>
+      </div>
 
-        <div id="inputEntrega">
-          <textarea name="areaEntregaCifra" rows="8"></textarea>
-        </div>
+      <div>
+        <textarea id="inputEntrega" name="areaEntregaCifra" rows="8"></textarea>
+      </div>
 
-        <button>Cifrar</button>
-        <button>Decifrar</button>
-      </form>
+      <button id="btnCifra" name="botãoCifrar">Cifrar</button>
+      <button>Decifrar</button>
     </main>
 
     <script src="index.js" type="module"></script>
