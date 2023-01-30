@@ -1,6 +1,7 @@
 # Cifra de César
 
 ## Índice
+![À esquerda, imagem com desenho de um diário, uma frase centralizada: Meu Diário Cifrado, e ao lado direito uma imagem de Julio César](https://user-images.githubusercontent.com/48700653/215564890-af7341e9-bf13-4661-b91f-1d5dc50d6ae4.png)
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
