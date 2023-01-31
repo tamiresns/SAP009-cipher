@@ -58,7 +58,7 @@ específico de caracteres (_offset_).
 
 ##### 5. Autora do projeto
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Tamires Nascimento</sub>](https://github.com/tamiresns)| 
+| [<img src="https://avatars.githubusercontent.com" width=115><br><sub>Tamires Nascimento</sub>](https://github.com/tamiresns)| 
 
 
 
