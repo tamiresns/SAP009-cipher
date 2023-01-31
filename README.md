@@ -5,13 +5,10 @@
 
 * [1. Prefácio](#1-prefácio)
 * [2. Resumo do projeto](#2-resumo-do-projeto)
-* [3. Considerações gerais](#3-considerações-gerais)
-* [4. Marco: Critérios de Aceitação Mínimos do Projeto](#5-marco-critérios-de-aceitação-mínimos-do-projeto)
-* [5. Marco Opcional: Adicione suporte para letras minúsculas e outros caracteres](#5-marco-opcional-adicione-suporte-para-letras-minúsculas-e-outros-caracteres)
-* [6. Considerações técnicas](#6-considerações-técnicas)
-* [7. Objetivos de aprendizagem](#7-objetivos-de-aprendizagem)
-* [8. Guias, dicas e leituras complementares](#8-guias-dicas-e-leituras-complementares)
-* [9. Para considerar o feedback do projeto](#9-para-considerar-o-feedback-do-projeto)
+* [3. Dependências](#3-dependencias)
+* [4. Acesso ao projeto](#4-acesso-ao-projeto)
+* [5. Autora do projeto](#5-autora-do-projeto)
+
 
 ***
 
@@ -49,81 +46,24 @@ específico de caracteres (_offset_).
 ![imagem mostrando o deslocamento da cifra de César](https://user-images.githubusercontent.com/48700653/215572827-2513c55d-061d-4cf7-ba47-1c5ea6ca26fd.png)
 
 
-### Os objetivos gerais deste projeto são os seguintes
+### 3. Dependências
 
-* Trabalhar com base em um boilerplate, a estrutura básica de um projeto em diferentes
-  pastas (através de módulos em JS).
-* Conhecer as ferramentas de manutenção e melhoria do código (linters e testes
-  unitários).
-* Aprenda sobre objetos, estruturas, métodos e iteração (loops) em JavaScript
-* Implementar controle de versão com git (e a plataforma github)
+* 
 
-## 3. Considerações gerais
 
-* Resolvemos este projeto individualmente. Recomendamos uma duração de 1-3 sprints.
-* Concentre-se em aprender e não apenas "concluir" o projeto.
-* Sugerimos que você não tente saber tudo antes de começar a codificar.
-  Não se preocupe muito agora com o que você _ainda_ não entende.
-  Você vai aprender.
 
-## 4. Marco: Critérios de Aceitação Mínimos do Projeto
+#### 4. Acesso ao projeto
 
-Esses são os requisitos que seu projeto deve atender para garantir que
-seu trabalho atenda aos objetivos principais.
 
-**1. Uma interface que deve permitir ao usuário:**
 
-* **Criptografar uma mensagem**
-  - Inserir a mensagem (texto) que deseja criptografar. A mensagem usa um
-    alfabeto simplificado (apenas letras maiúsculas).
-  - Escolher um número de deslocamento (_offset_) indicando quantas posições
-    você deseja que a cifra desloque cada caractere do alfabeto. O número
-    será positivo e inteiro (inteiro positivo).
-  - Veja o resultado da mensagem criptografada.
+##### 5. Autora do projeto
 
-* **Descriptografar uma mensagem**
-  - Inserir a mensagem (texto) que deseja descriptografar. A mensagem usa um
-    alfabeto simplificado (apenas letras maiúsculas).
-  - Escolher um número de deslocamento (_offset_, que corresponde ao que usamos
-    para criptografar) indicando quantas posições você deseja que a cifra
-    desloque cada caractere do alfabeto. O número será positivo e inteiro
-    (inteiro positivo).
-  - Veja o resultado da mensagem descriptografada.
-
-**2. Testes unitários dos métodos.**
-Os métodos `cipher` (`encode` e `decode`) devem ser cobertos por testes
-unitários.
-
-**3. Código do seu projeto enviado para seu repositório e interface "implantada".**
-O código final deve estar um repositório no GitHub. A interface, ou página da
-web, deve ser "implantada" usando o GitHub Pages.
-
-**4. Um README contendo uma definição de produto.**
-No README, conte-nos como você pensou sobre os usuários e qual foi o seu
-processo para definir o produto final em nível de experiência e interface.
-Estas perguntas servem de guia:
-
-* Quem são os principais usuários do produto
-* Quais são os objetivos desses usuários em relação ao seu produto
-* Como você acha que o produto que você está criando está resolvendo seus
-  problemas
-
-Com esses requisitos atendidos, você pode agendar um feedback do projeto com
-um coach.
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Tamires Nascimento</sub>](https://github.com/tamiresns)| 
 
 
 
 
-## 9. Para considerar o feedback do projeto
 
-Em resumo, os critérios mínimos de aceitação do projeto para considerar o
-Project Feedback:
 
-* [ ] Possui uma interface que permite ao usuário criptografar e
-  descriptografar.
-* [ ] O projeto será entregue incluindo testes unitários dos métodos `cipher`
-  (`encode` e `decode`).
-* [ ] O projeto será entregue livre de _erros_ de `eslint` (_warnings_ são ok).
-* [ ] O código do seu projeto será entregue no GitHub.
-* [ ] A interface será "implantada" usando o GitHub Pages.
-* [ ] O README contém uma definição de produto.
+
+
