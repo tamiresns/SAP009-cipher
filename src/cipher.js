@@ -2,6 +2,10 @@ let codigoDaPrimeiraLetraMaiuscula = 65;
 let codigoDaUltimaLetraMaiuscula = 90;
 const tamanhoAlfabeto = 26;
 
+function validarDeslocamento(deslocamento){
+  return !isNaN(deslocamento)
+}
+
 function descobreASCInicial(cifraRecebida) {
 
   if(cifraRecebida === cifraRecebida.toUpperCase()) {
@@ -17,13 +21,17 @@ function descobreASCFinal(cifraRecebida) {
     return 90;
   }
   else {
-    return 122; //Retorna ASC code do a minusculo
+    return 122; //Retorna ASC code do z minusculo
   }
 }
 
 
 function encode(numeroDeslocamento, cifraRecebida) {
   let resultado = "";
+  if(!validarDeslocamento(numeroDeslocamento)){
+    alert("Preecha o deslocamento");
+    return "";
+  }
   
   for(let i = 0; i < cifraRecebida.length; i++){
     const codigoDaLetra = cifraRecebida.charCodeAt(i);
@@ -39,6 +47,10 @@ function encode(numeroDeslocamento, cifraRecebida) {
 
 function decode(numeroDeslocamento, cifraRecebida) {
   let resultado = "";
+  if(!validarDeslocamento(numeroDeslocamento)){
+    alert("Preecha o deslocamento");
+    return "";
+  }
 
   for(let i = 0; i < cifraRecebida.length; i++){
     const codigoDaLetra = cifraRecebida.charCodeAt(i);
@@ -52,6 +64,6 @@ function decode(numeroDeslocamento, cifraRecebida) {
 }
 
 //export default cipher;
-export {encode, decode};
+export {encode, decode, validarDeslocamento};
 
 

@@ -1,7 +1,15 @@
-import {encode, decode} from '../src/cipher.js';
+import {encode, decode, validarDeslocamento} from '../src/cipher.js';
 
 describe('cipher', () => {
+  describe('method validate', () => {
+    it('should be a sucess', () => {
+      expect(validarDeslocamento(1)).toBe(true);
+    });
+    it('should be a fail', () => {
+      expect(validarDeslocamento(NaN)).toBe(false);
+    });
 
+  })
   describe('method encode', () => {
 
     it('should be a function', () => {
