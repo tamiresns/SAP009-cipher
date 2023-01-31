@@ -37,28 +37,31 @@ mas a cifra de César muitas vezes pode fazer parte de um sistema
 mais complexo de criptografia, como
 a cifra de Vigenère, e tem aplicação no sistema ROT13.
 
+![imagem mostrando o deslocamento da cifra de César](https://user-images.githubusercontent.com/48700653/215572827-2513c55d-061d-4cf7-ba47-1c5ea6ca26fd.png)
+
+
 ## 2. Resumo do projeto
 
 Este projeto é minha primeira aplicação web do _bootcamp_ Laboratória. Nela o usuário
-poderá cifrar e decifrar um texto, no caso o seu diário, no navegador indicando um deslocamento
+poderá cifrar e decifrar um texto, no caso o seu diário :memo:, no navegador indicando um deslocamento
 específico de caracteres (_offset_). 
-
-![imagem mostrando o deslocamento da cifra de César](https://user-images.githubusercontent.com/48700653/215572827-2513c55d-061d-4cf7-ba47-1c5ea6ca26fd.png)
 
 
 ### 3. Dependências
 
-* 
+Para rodar este projeto é necessário ter:
+* NodeJS >= current Version
 
 
 
 #### 4. Acesso ao projeto
+[Link do Projeto](https://tamiresns.github.io/SAP009-cipher/src/)
 
 
 
 ##### 5. Autora do projeto
 
-| [<img src="https://avatars.githubusercontent.com" width=115><br><sub>Tamires Nascimento</sub>](https://github.com/tamiresns)| 
+| [<img src="https://avatars.githubusercontent.com/u/48700653?v=4" width=115><br><sub>Tamires Nascimento</sub>](https://github.com/tamiresns)| 
 
 
 
